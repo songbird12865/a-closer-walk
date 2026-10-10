@@ -1,0 +1,12 @@
+A CLOSER WALK — APPS & GAMES UPDATE
+
+1. Unzip this package.
+2. Copy the CONTENTS of the website-update folder into your existing a-closer-walk website folder. Merge folders and replace the matching files.
+3. Open apps.html to see the new page.
+4. Commit and push to GitHub as usual.
+
+The new page will be https://acloserwalk.org/apps.html after GitHub Pages publishes your changes.
+
+Only new or edited files are included. Existing images, scripts, and other assets remain in your website folder. All ministry navigation menus and both individual marketing pages link to Apps & Games.
+
+App Store URLs were not present in the supplied files. All three apps are marked Coming Soon. App Store download links can be added after release. Is This in the Bible ~ A Closer Walk series is included as in development; no substitute artwork was added. Existing privacy policy URLs were preserved.
