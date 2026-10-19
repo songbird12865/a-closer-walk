@@ -1,0 +1,10 @@
+MY PRAYER GARDEN WEBSITE PAGES
+
+Upload the entire myprayergarden folder to the root of the existing acloserwalk.org GitHub Pages repository. Preserve folder names and nested index.html files.
+
+After GitHub Pages publishes, check:
+https://acloserwalk.org/myprayergarden/
+https://acloserwalk.org/myprayergarden/support/
+https://acloserwalk.org/myprayergarden/privacy/
+
+The pages are pre-release drafts. Verify the privacy policy against the final app before public release.
