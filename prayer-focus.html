@@ -10,8 +10,8 @@
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/>
 <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css"/>
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&amp;display=swap" rel="stylesheet"/>
-<link href="css/styles.css" rel="stylesheet">
-<link href="css/cis373.css" rel="stylesheet"/>
+<link href="css/styles.css" rel="stylesheet"/>
+<link href="css/cis373.css" rel="stylesheet">
 <style>
             body {
                 background-color: #f0f4f8;
@@ -192,10 +192,39 @@
             }
         </style>
 </link><style>/* Keep banner fully below fixed, responsive site navigation */
-:root{--acw-nav-height:165px}body{padding-top:0!important}.prayer-header-banner{margin-top:var(--acw-nav-height);padding:48px 16px 50px}.prayer-header-banner h1{line-height:1.3;margin-top:0}@media(max-width:576px){.prayer-header-banner{padding:38px 12px 42px}.prayer-header-banner h1{font-size:2.4rem}}</style></head>
-<body id="page-top">
+:root{--acw-nav-height:165px}body{padding-top:0!important}.prayer-header-banner{margin-top:var(--acw-nav-height);padding:48px 16px 50px}.prayer-header-banner h1{line-height:1.3;margin-top:0}@media(max-width:576px){.prayer-header-banner{padding:38px 12px 42px}.prayer-header-banner h1{font-size:2.4rem}}</style><style>/* Navigation restored; avoid fixed-height gaps and banner clipping */
+body#page-top {padding-top:0!important}
+#mainNav {z-index:1030}
+.prayer-header-banner {margin-top:0!important;padding:calc(var(--acw-nav-height, 110px) + 32px) 16px 48px!important;min-height:0}
+.prayer-header-banner h1 {line-height:1.35;overflow:visible}
+@media(max-width:576px){.prayer-header-banner{padding-top:calc(var(--acw-nav-height, 90px) + 24px)!important}}
+</style></head>
+<body id="page-top"><nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+<div class="container">
+<a class="navbar-brand d-flex align-items-center" href="index.html">
+<img alt="A Closer Walk Logo" src="assets/img/acloserwalk-logo.jpg" style="height: 40px; width: 40px; object-fit: cover; border-radius: 50%; margin-right: 10px;"/>
+                    A Closer Walk
+                </a>
+<button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" data-bs-target="#navbarResponsive" data-bs-toggle="collapse" type="button">
+                    Menu <i class="fas fa-bars"></i>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="portfolio.html">Portfolio</a></li>
+<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="faith.html">Faith</a></li>
+<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="testimonials.html">Testimonials</a></li>
+<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="comic-relief.html">Comic Relief</a></li>
+<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="motivation.html">Motivation</a></li>
+<li class="nav-item mx-0 mx-lg-1"><a aria-current="page" class="nav-link py-3 px-0 px-lg-3 rounded active" href="prayer-focus.html">Prayer Focus</a></li>
+<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="monthly-theme.html">Monthly Theme</a></li>
+<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="apps.html">Apps &amp; Games</a></li>
+<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="about.html">About</a></li>
+<li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="contact.html">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
 <!-- Navigation-->
-
 <!-- Page Header -->
 <div class="prayer-header-banner">
 <h1>🌏 Monthly Prayer Focus</h1>
@@ -229,19 +258,19 @@
                     </p>
 <div class="prayer-grid">
 <div class="prayer-photo-card">
-<img alt="Thailand floating market vendors on boats" loading="lazy" src="assets/img/thailand_floating_market.jpg">
+<img alt="Thailand floating market vendors on boats" loading="lazy" src="assets/img/thailand_floating_market.jpg"/>
 <div class="photo-caption">
 <strong>Floating Market, Central Thailand</strong>
                                 Vendors navigate colorful boats loaded with produce — a scene of everyday life for millions. Each face here is known by God.
                             </div>
-</img></div>
+</div>
 <div class="prayer-photo-card">
-<img alt="Thai rice farmers harvesting in fields" loading="lazy" src="assets/img/Thailand_Rice_farmers_-_multi.jpg">
+<img alt="Thai rice farmers harvesting in fields" loading="lazy" src="assets/img/Thailand_Rice_farmers_-_multi.jpg"/>
 <div class="photo-caption">
 <strong>Rice Farmers, Rural Thailand</strong>
                                 Families work the fields from sunrise to sundown. Pray that the God who waters every harvest would water their hearts too.
                             </div>
-</img></div>
+</div>
 <div class="prayer-photo-card">
 <img alt="Hill tribe community Northern Thailand" loading="lazy" src="assets/img/Hill_Tribe_Community_-_Thailand.jpg"/>
 <div class="photo-caption">
@@ -368,5 +397,5 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 <script src="js/scripts.js"></script>
 <script src="js/cis373.js"></script>
-<script>(function(){function align(){var nav=document.getElementById('mainNav');if(nav){document.documentElement.style.setProperty('--acw-nav-height',Math.ceil(nav.getBoundingClientRect().height)+'px');}}window.addEventListener('load',align);window.addEventListener('resize',align);document.addEventListener('DOMContentLoaded',align);if(window.ResizeObserver){new ResizeObserver(align).observe(document.getElementById('mainNav'));}})();</script></body>
+<script>(function(){const nav=document.getElementById('mainNav');if(!nav)return;function measure(){document.documentElement.style.setProperty('--acw-nav-height',Math.ceil(nav.getBoundingClientRect().height)+'px')}measure();window.addEventListener('load',measure);window.addEventListener('resize',measure);if(window.ResizeObserver)new ResizeObserver(measure).observe(nav);})();</script></body>
 </html>
